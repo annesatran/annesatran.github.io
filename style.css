@@ -37,7 +37,7 @@ h1, h2 {
     font-weight: 300;
     letter-spacing: -0.02em;
     line-height: 1.1em;
-    margin: 0.1em auto
+    margin: 0.1em auto;
 }
 
 h1 {
@@ -50,13 +50,19 @@ h2 {
 
 h2 strong {
     color: #634f4f;
+    font-weight: 300
 }
 
 li {
     list-style-type: '> '
 }
 
-::selection, ::-moz-selection {
+::selection {
     color: #000;
     background: #d4fabe;
-  }
+}
+
+::-moz-selection {
+    color: #000;
+    background: #d4fabe;
+}
